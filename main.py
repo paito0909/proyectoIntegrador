@@ -35,11 +35,11 @@ while True:
 import os
 
 def clear_terminal():
-    """Función para limpiar la terminal"""
+    #Función para limpiar la terminal
     os.system('cls' if os.name=='nt' else 'clear')
 
 def main():
-    """Función principal"""
+    #Función principal
     input("Presiona 'n' y Enter para comenzar...")
     numero = 0
     while numero <= 50:
@@ -50,5 +50,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+
+
     
     
